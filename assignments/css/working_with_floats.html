@@ -1,0 +1,107 @@
+<html>
+    <head>
+ 
+       <style>
+* {
+  box-sizing: border-box;
+}
+
+.box1 {
+     float: left;
+     width: 100%;
+     padding: 25px;
+     text-align: center;
+     font-family: arial
+     }
+     
+.box2 {
+     float: left;
+     width: 50%;
+     padding: 50px;
+     text-align: center;
+     font-family: arial
+     }
+     
+.box3 {
+     float: left;
+     width: 50%;
+     padding: 50px;
+     text-align: center;
+     font-family: arial
+     }     
+     
+.box4 {
+     float: left;
+     width: 25%;
+     padding: 50px;
+     text-align: center;
+     font-family: arial
+     }          
+     
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.space {
+     float: left;
+     width: 100%;
+     padding: 25px;
+     text-align: center;
+     font-family: arial
+     }
+        </style>
+    </head>
+    
+    <div class="box1" style="background-color:blue">
+    <p>Jason</p>
+    </div>
+    
+    <div class="clearfix">
+        <div class="box2" style="background-color:grey"
+           <p>James</p>
+        </div>
+        <div class="box3" style="background-color:yellow"
+           <p>Larranaga</p>
+        </div>   
+    </div>
+    
+    <div class="space" style="background-color:white"></div>
+    
+    
+        <div class="box1" style="background-color:blue">
+            <p>Jason James Larranaga</p>
+        </div>
+        
+        <div class="clearfix">
+           <div class="box4" style="background-color:grey">
+               <p>Jason</p>
+           </div>
+           <div class="box3" style="background-color:yellow">
+               <p>James</p>
+           </div>
+           <div class="box4" style="background-color:grey">
+               <p>James</p>
+        </div>   
+            
+    <div class="space" style="background-color:white"></div>
+    
+        <div class="clearfix">
+            <div class="box2" style="background-color:blue">
+                <p>Jason</p>
+            </div>   
+            <div class="box2" style="background-color:yellow">
+                <p>James</p>
+            </div>   
+        </div>    
+        <div class="clearfix">
+            <div class="box2" style="background-color:yellow">
+                <p>Larranaga</p>
+            </div>   
+            <div class="box2" style="background-color:blue">
+                <p>Jason</p>
+            </div>   
+        </div>    
+        
+</html>

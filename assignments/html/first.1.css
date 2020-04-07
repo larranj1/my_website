@@ -1,0 +1,42 @@
+h1 {
+  text-align: Left;
+  font-family: Arial, sans-serif;
+  color: Black;	
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  color: #87CEFA;
+}
+
+ul{
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+ol{
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+body{
+  background-color: gray;
+}
+
+a{
+  color: black
+}
+
+a:link{
+  text-decoration: none
+}
+
+a:hover{
+  text-decoration: underline
+}
+
+
